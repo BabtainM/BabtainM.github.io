@@ -64,7 +64,7 @@ function init() {
     renderer.setSize(canvasWidth, canvasHeight);
     renderer.setClearColor(0x000000, 1.0);
     camera = new THREE.PerspectiveCamera(60, canvasRatio, 1, 1000);
-    camera.position.set(30, 30, 30);
+    camera.position.set(40, 40, 40);
     camera.lookAt(new THREE.Vector3(0, 0, 0));
     cameraControls = new THREE.OrbitControls(camera, renderer.domElement);
 }

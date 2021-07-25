@@ -7,8 +7,9 @@
 h1 {
   color: #426696;
   font-weight: 600;
-  font-size: 3rem;
+  font-size: 2rem;
   opacity: 0.8;
+  margin-left: 2rem;
 }
 h2,
 p {
@@ -34,8 +35,8 @@ main {
 
 .glass {
   background: white;
-  height: 95vh;
-  width: 70%;
+  height: 90vh;
+  width: 80%;
   background: linear-gradient(
     to right bottom,
     rgba(255, 255, 255, 0.7),
@@ -85,7 +86,7 @@ main {
 }
 .link {
   display: flex;
-  margin: 2rem 0rem;
+  margin: .5rem 0rem;
   padding: 1rem 5rem;
   align-items: center;
 }
@@ -107,18 +108,19 @@ main {
 
 .pro img {
   position: absolute;
-  top: -10%;
+  top: -15%;
   right: 10%;
 }
 .pro h2 {
   width: 40%;
   color: white;
   font-weight: 600;
+  
 }
 
 /* GAMES */
 .status {
-  margin-bottom: 3rem;
+  margin-bottom: .5rem;
 }
 
 .status input {
@@ -128,13 +130,13 @@ main {
     rgba(255, 255, 255, 0.3)
   );
   border: none;
-  width: 80%;
-  padding: 0.5rem;
+  width: 50%;
   border-radius: 2rem;
+  margin-left: 2rem;
 }
 
 .games {
-  margin:4rem;
+  margin:4.5rem;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
@@ -148,7 +150,7 @@ main {
     rgba(255, 255, 255, 0.5)
   );
   border-radius: 1rem;
-  margin: 2rem 0rem;
+  margin: 1rem 2rem;
   padding: 2rem;
   box-shadow: 6px 6px 20px rgba(122, 122, 122, 0.212);
   justify-content: space-between;
@@ -157,14 +159,14 @@ main {
 .progress {
   background: linear-gradient(to right top, #65dfc9, #6cdbeb);
   width: 100%;
-  height: 40%;
+  height: 15%;
   border-radius: 1rem;
   position: relative;
   overflow: hidden;
 }
 .progress::after {
   content: "";
-  width: 100%;
+  width: 80%;
   height: 100%;
   background: rgb(236, 236, 236);
   position: absolute;
